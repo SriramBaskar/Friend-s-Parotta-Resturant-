@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <button onclick="location.href = 'index.html'" class="btn">Back</button>
+    <button onclick="location.href = 'bookingConfirmation.html'" class="r-btn">Reservation card</button>
+
+    <div class="center-el">
+        <form class="form-el">
+            <h2 class="heading-el">RESERVATION</h2>
+            
+            <input type="text" placeholder="Name" id="name-el" class="frm1"><br><br>
+
+            <input type="email" placeholder="email" id="email-el" class="frm1"><br><br>
+
+            <input type="number" placeholder="Number of Guest" id="count-el" class="frm">
+
+            <input type="date" placeholder="Select the date" id="date-el" class="frm">
+
+            <input type="time" placeholder="Select the time" id="time-el" class="frm"><br><br>
+
+            <button id="btn-book">Booking Now</button>
+            
+        </form>
+    </div>
+    <div id="output-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>

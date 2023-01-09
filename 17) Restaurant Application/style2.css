@@ -1,0 +1,69 @@
+body{
+    background-image: url(img/table.webp);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center-el{
+    text-align: center;
+    margin: 4cm;
+    margin-left: 10cm;
+}
+
+.form-el{
+    width: 750px;
+    height: auto;
+    border-style: solid;
+    background-color: bisque;
+    border-color: hsl(0, 0%, 73%); 
+}
+
+.frm{
+    width: 150px;
+    height: 10px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.frm1{
+    width: 400px;
+    height: 10px;
+    padding: 12px 20px;
+    border: 2px solid bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color:  #D35400 ;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 15px 32px;
+}
+
+.btn{
+    background: none;
+    border: 2px solid white;
+}
+
+.heading-el{
+    color: #B7950B ;
+    font-weight: bolder;
+}
+
+.r-btn{
+    background: none;
+    border: 2px solid white;
+    position:absolute;
+    top: 0.5cm;
+    right:2cm;
+}
+
+#output-container{
+    font-size: 1px;
+    font-weight: lighter;
+}

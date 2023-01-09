@@ -1,0 +1,64 @@
+body{
+    background-image: url(img/letter.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background: none;
+    color: black;
+    text-align: center;
+    margin: 20px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid ;
+    padding: 15px 32px;
+}
+
+.back-btn{
+    position:absolute;
+    top: 0.5cm;
+    left:2cm;
+}
+
+.top-el{
+    text-align: center;
+}
+
+#inter-el{
+    color: #D35400;
+}
+
+.food-el{
+    margin: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 260px;
+    padding: 10px;
+  }
+  
+  .food-el:hover {
+    border: 1px solid black;
+    width: 260px;
+  }
+  
+  .food-el img {
+    height: 260px;
+    width: 260px;
+  }
+  
+  .desc {
+    padding-left: 15px;
+    text-align: left;
+    width: 260px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .price{
+    padding-right: 15px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    color: #D35400;
+  }

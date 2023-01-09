@@ -1,0 +1,53 @@
+body{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(img/spices.jpg);
+    background-size: cover;
+    
+}
+
+#inter-el{
+    color: #D35400 ;
+}
+
+h2{
+    font-size: 50px;
+}
+
+button{
+    background-color:  #D35400 ;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 15px 32px;
+}
+
+.center-el{
+    text-align: center;
+    font-size: 50px;
+}
+
+.reser-el{
+    position:absolute;
+    top: 0.5cm;
+    right:2cm;
+}
+
+.about-el{
+    background: none;
+    border: 2px solid white;
+}
+
+.details-el{
+    font-size: 30px;
+}
+
+.list-el{
+    position: absolute;
+    top: 1cm;
+    right: 20cm;
+    color: white;
+}
